@@ -3,10 +3,15 @@ import { IndexLink, Link } from "react-router";
 
 class Footer extends React.Component {
   render() {
+    const footerStyle = {
+      textAlign: "center",
+      fontSize: 14,
+      paddingTop: 30,
+      paddingBottom: 30,
+    }
     return (
-      <footer>
-        <hr></hr>
-        <p>This is the footer!</p>
+      <footer style = {footerStyle}>
+        <p>Guillermo Gineste — <a className = "regular-link" href="mailto:nowhere@mozilla.org">guillermo.gineste@gmail.com</a></p>
       </footer>
     );
   }

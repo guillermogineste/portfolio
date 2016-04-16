@@ -1,6 +1,8 @@
 import React from "react";
 import { IndexLink, Link } from "react-router";
 
+import Navigation from "../components/Navigation";
+
 import FirstTest from "../projects/FirstTest";
 import SecondTest from "../projects/SecondTest";
 import ThirdTest from "../projects/ThirdTest";
@@ -28,7 +30,11 @@ class Project extends React.Component {
   }
   render() {
     return (
-      <div>{this.renderProject()}</div>
+
+      <div key={this.props.params.projectName}>
+        <Navigation/>
+        {this.renderProject()}
+      </div>
     )
   }
 };

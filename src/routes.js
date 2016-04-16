@@ -8,9 +8,13 @@ import About from "./pages/About";
 
 const routes = (
   <Route path="/" component={ App }>
+    {/*Route to index*/}
     <IndexRoute component={ List } />
+    {/*List of projects*/}
     <Route path="list" component={ List } />
+    {/*About page*/}
     <Route path="about" component={ About } />
+    {/*Route for each project*/}
     <Route path=":projectName" component={ Project } />
   </Route>
 );
