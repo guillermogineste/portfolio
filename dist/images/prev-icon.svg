@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>prev-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bottom-Navigarion---All-closed" transform="translate(-50.000000, -18.000000)" fill="#EE340B">
+            <polygon id="prev-icon" points="50.7071068 23.6568542 50 24.363961 56.363961 30.7279221 57.7781746 29.3137085 52.8284271 24.363961 57.7781746 19.4142136 56.363961 18 50.7071068 23.6568542"></polygon>
+        </g>
+    </g>
+</svg>
