@@ -6,6 +6,7 @@ class SecondTest extends React.Component {
     return (
         <div>
           <p>This is the second test project</p>
+          <BottomNavigation next = "" prev = ""/>
         </div>
     );
   }

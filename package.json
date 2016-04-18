@@ -4,6 +4,8 @@
   "description": "test portfolio",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p --config webpack.config.prod.js",
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

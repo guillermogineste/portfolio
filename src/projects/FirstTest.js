@@ -6,6 +6,7 @@ class FirstTest extends React.Component {
     return (
         <div>
           <p>This is the first test project</p>
+          <BottomNavigation next = "" prev = ""/>
         </div>
     );
   }

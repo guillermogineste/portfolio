@@ -1,8 +1,8 @@
 import React from "react";
 
 class LeftButton extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       isHovering: false,
@@ -61,8 +61,8 @@ class LeftButton extends React.Component {
             onMouseOver = {this.handleMouseOver.bind(this)}
             onMouseOut = {this.handleMouseOut.bind(this)}
             style = {prevButtonStyle}>
-            <img style = {iconLeftStyleFirst} src="/images/prev-icon.svg"></img>
-            <img style = {iconLeftStyleSecond} src="/images/prev-icon.svg"></img>
+            <img style = {iconLeftStyleFirst} src="images/prev-icon.svg"></img>
+            <img style = {iconLeftStyleSecond} src="images/prev-icon.svg"></img>
             <span style = {textLeftStyle}>Previous Project</span>
           </div>
 

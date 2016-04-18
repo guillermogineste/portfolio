@@ -1,8 +1,8 @@
 import React from "react";
 
 class CenterButton extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       isHovering: false,
@@ -52,7 +52,7 @@ class CenterButton extends React.Component {
         onMouseOver = {this.handleMouseOver.bind(this)}
         onMouseOut = {this.handleMouseOut.bind(this)}
         style = {gridButtonStyle}>
-        <img style = {gridIcontStyle} src="/images/grid-icon.svg"></img>
+        <img style = {gridIcontStyle} src="images/grid-icon.svg"></img>
         <span style = {gridTextStyle}>All Projects</span>
       </div>
     );

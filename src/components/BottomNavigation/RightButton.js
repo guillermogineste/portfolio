@@ -1,8 +1,8 @@
 import React from "react";
 
 class RightButton extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       isHovering: false,
@@ -63,8 +63,8 @@ class RightButton extends React.Component {
         onMouseOut = {this.handleMouseOut.bind(this)}
         style = {nextButtonStyle}>
         <span style = {textRightStyle}>Next Project</span>
-        <img style = {iconRightStyleFirst} src="/images/next-icon.svg"></img>
-        <img style = {iconRightStyleSecond} src="/images/next-icon.svg"></img>
+        <img style = {iconRightStyleFirst} src="images/next-icon.svg"></img>
+        <img style = {iconRightStyleSecond} src="images/next-icon.svg"></img>
       </div>
     );
   }
