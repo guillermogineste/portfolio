@@ -7,6 +7,7 @@ This is a basic portfolio build using react, react-router and radium
 npm init
 npm run dev
 ```
+go to: http://localhost:8080/
 
 ### To build:
 ```npm run build```
