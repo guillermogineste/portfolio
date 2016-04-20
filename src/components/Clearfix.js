@@ -3,19 +3,20 @@ import React from "react";
 
 class Clearfix extends React.Component {
   render() {
-    const beforeStyle = {
-      display: 'table'
-    };
-
-    const afterStyle = {
-      clear: 'both'
-    };
+    const styles = {
+      before: {
+        display: 'table'
+      },
+      after: {
+        clear: 'both'
+      }
+    }
 
     return (
       <div {...this.props}>
-        <div style={beforeStyle}/>
+        <div style={styles.before}/>
         {this.props.children}
-        <div style={afterStyle}/>
+        <div style={styles.after}/>
       </div>
     );
   }

@@ -21,13 +21,13 @@ class BottomNavigation extends React.Component {
 
     return (
       <nav style = {styles.base}>
-        <Link to = {`/${this.props.prev}`}>
+        <Link to = {this.props.prev}>
           <NavigationButton position="left">Previous Project</NavigationButton>
         </Link>
-        <Link to = {`/list`}>
+        <Link to = "list">
           <CenterButton/>
         </Link>
-        <Link to = {`/${this.props.next}`}>
+        <Link to = {this.props.next}>
           <NavigationButton position="right">Next Project</NavigationButton>
         </Link>
       </nav>

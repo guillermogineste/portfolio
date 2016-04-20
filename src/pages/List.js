@@ -7,14 +7,16 @@ import PresentationText from "../components/PresentationText";
 
 class List extends React.Component {
   render() {
-    const projectsListStyle = {
-      width: 703,
-      margin: "0 auto",
-    };
+    const styles = {
+      list: {
+        width: 703,
+        margin: "0 auto",
+      },
+    }
     return (
       <Clearfix>
         <PresentationText/>
-        <div style = {projectsListStyle}>
+        <div style = {styles.list}>
           <ProjectCard
             featured = {true}
             position = ""
